@@ -1,0 +1,181 @@
+<html>
+	<head>
+		<meta charset "UTF-8">
+		<title>Curso Javascript</title>
+	</head>
+	<body>
+		<script>
+			//sempre escrever os comandos JS no final do body
+			
+			//Comentários
+			/*
+			uma linha: //
+			um conjunto:/**/	
+			
+			//________________________________________________________________________________________
+			
+			//Variavél 
+			/*
+			simples:
+				var resultado = 'M'
+			Array:
+				var resultado = ['A', 'B', 'C'] 
+			*/			
+			
+			//________________________________________________________________________________________
+			
+			//atribuição de valor: =
+			/*
+			verificação de valor: ==
+			verificação de valor e tipo: ===
+			exibe informação no console: console.log()
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//Função:
+			/*
+			function soma(numero1, numero2){
+				var resultado = numero1 = numero2;
+				
+				return resultado;
+			}
+			var resultado = soma(1,2);
+			console.log(resultado);
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//condicionais: if, else
+			/*
+			var sexo = 'M';
+			
+			if(sexo === 'M'){
+				return 'Masculino';
+			}else{
+				return 'Feminino';
+			}
+			
+			ou 
+			
+			function retornaSexo(sexo){
+				if(sexo === 'M'){
+					return 'Masculino';
+				}else{
+					return 'Feminino';
+				}
+			}
+			var resultado = retornaSexo('M');
+			console.log(resultado);
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//condicionais: switch/case
+			/*
+			function retornaSexo(sexo){
+				switch(sexo){
+					case 'M':
+						return 'Masculino';
+					case 'F':
+						return 'Feminino';
+					default:
+						return 'Outro';
+				}
+			}
+			var resultado = retornaSexo('M');
+			console.log(resultado);
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//Operadores Lógicos: 
+			/*
+			And: && 
+			Or: || 
+			Not: != ou !==
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//Condição ternária
+			/*
+			var sexo = 'M';
+			
+			if(sexo === 'M'){
+				return 'Masculino';
+			}else{
+				return 'Feminino';
+			}
+			
+			vira
+			
+			var sexo = 'M';
+			
+			var retorno = (sexo === 'M')? 'Masculino' : 'Feminino';
+			console.log(retorno);
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//Loop For (utilizar quando souber a quantidade de iterações ex.:100)
+			/*
+			for (var i = 0; i <=100; i++){
+				console.log(i);
+			}
+			*/
+			
+			//________________________________________________________________________________________
+			
+			//Loop while (utilizar quando NÃO souber a quantidade de iterações)
+			/*
+			var j = 0;
+			while(j<=100){
+				console.log(j);
+				
+				j++;
+			}
+			
+			var j = 219345872;
+			while(j > 50){
+				console.log(j);
+				
+				j /= 5;
+			*/
+			
+		</script>
+	</body>
+</html>
+
+
+<html>
+	<head>
+		<meta charset "UTF-8">
+		<title>Curso Javascript</title>
+	</head>
+	<body>
+		<div id="app">
+			//<input onkeypress="exibeAlgo()"/>
+			//<buttom onclick="exibeAlgo()" class="botao">Adicionar</buttom>
+			<buttom onmouseover="exibeAlgo()" class="botao">Adicionar</buttom>
+		</div>
+		<script>
+			//Intervalo
+			/*
+			function exibeAlgo(){
+				console.log('Hello World');
+			}
+			setInterval(exibeAlgo, 1000);
+			*/
+			
+			//Timeout
+			/*
+			function exibeAlgo(){
+				console.log('Hello World');
+			}
+			setTimeout(exibeAlgo, 5000);
+			*/
+			
+		</script>
+	</body>
+</html>
